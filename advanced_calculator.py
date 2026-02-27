@@ -267,3 +267,5 @@ if __name__ == "__main__":
             print("Invalid choice for array calculations.")
     else:
         print("Invalid choice. Please enter 1 or 2.")
+
+print("END OF THE PROGRAM.")
