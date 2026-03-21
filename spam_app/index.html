@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Detector</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+
+    <h1> Spam Detection App</h1>
+
+    <form action="/predict" method="post">
+        <textarea name="message" rows="5" cols="40" placeholder="Enter message here"></textarea><br><br>
+        <button type="submit">Check</button>
+    </form>
+
+    <h2>{{ prediction_text }}</h2>
+
+</body>
+</html>
